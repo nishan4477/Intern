@@ -1,0 +1,136 @@
+.footer{
+    background-image: url("../assets/Images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 48rem;
+    padding: 13.6rem 0;
+
+    
+    position: relative;
+    @media (max-width:999px){
+      padding: 2rem;
+      height: 120vh;
+        
+
+      }
+    a{
+        color: white;
+    }
+    &::before{
+        content: "";
+        background: linear-gradient(135deg, #3387D7 0%, #093157 100%);
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 80%;
+        
+
+
+    }
+    .footer__content{
+        position: absolute;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr ;
+       
+          z-index: 2;
+          @media (max-width:999px){
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap:1rem;
+            line-height: 1rem;
+            
+
+          }
+       
+        .list{
+            line-height: 4rem ;
+            h3{
+                font-size:2.5rem;
+            }
+            li{
+                font-size: 1.7rem;
+            }
+        }
+        .footer__left{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 2rem;
+            p{
+                font-size: 1.6rem;
+                padding-right: 20rem;
+                @media (max-width:999px){
+                    padding-right: 1rem;
+                    line-height: 2rem;
+                }
+            }
+            .social__logo{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                flex-direction: row;
+                gap: 2rem;
+                .logo__circle{
+                    width: 3.6rem;
+                    height: 3.6rem;
+                    border-radius: 100%;
+                    overflow: hidden;
+                    text-align:center ;
+                    background-color: white;
+                    position: relative;
+                    .logo{
+                       position: absolute;
+                       top: 20%;
+                       right: 20%;
+                       
+                        
+                     
+                    
+    
+                    }
+                
+                }
+            }
+    
+            
+        .main__logo{
+            img{
+                width: 23.7rem;
+            height: 7.1rem;
+            }
+            
+        }
+        
+    }
+        
+  
+    
+
+
+
+        
+    }
+    
+}
+
+.terms{
+    width: 100%;
+    height: 5.4rem;
+    margin-top: 3rem;
+    
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+p{
+    color: grey;
+    font-size: 1.4rem;
+}
+    }
+}

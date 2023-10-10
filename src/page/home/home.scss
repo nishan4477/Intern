@@ -1,0 +1,140 @@
+.campaigns{
+    padding: 9.6rem 0;
+}
+
+.who{
+    padding: 9.6rem 0;
+    @media (max-Width: 768px){
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+     }
+    
+
+
+    h2{
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+    p{
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+        color: gray;
+        
+    }
+    a{
+        margin-top: 2rem;
+        font-size: 1.4rem;
+    }
+    h3{
+        font-size: 2.4rem;
+        line-height: 4.2rem;
+  
+        
+    }
+
+    .image{
+        @media (max-Width: 768px){
+            margin-left: auto;
+            margin-right: auto;
+         }
+        
+        max-width: 328px;
+        max-height: 415px;
+        overflow: hidden ;
+        position: relative;
+        border-radius: 3rem;
+        img{
+            transition: all 500ms ease;
+            &:hover{
+                scale: 1.2;
+            }
+        }
+        
+      
+    }
+    .right{
+        margin-top: 14rem;
+        @media (max-Width:768px){
+            margin-top: 0;
+        }
+    }
+
+
+}
+
+
+.slider{
+    padding: 9.6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    background-color: #F9F9FF;
+    width: 100%;
+    
+    
+    img{
+        max-width: 151px;
+        height: 40px;
+        margin-left: 9rem;
+        
+    }
+    
+
+
+
+}
+
+.news{
+    padding: 9.6rem 0;
+
+    
+}
+
+
+.latest{
+    padding: 9.6rem 0;
+    background-color: #F9F9FF;
+
+}
+
+
+.contact{
+    padding: 9.6rem 0;
+    .form{
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+      margin: 0 30rem;
+      @media (max-Width:1200px){
+        margin: 0 5rem;
+      }
+    }
+   
+
+    h4{
+        font-size: 16px ;
+    }
+
+    
+
+input, textarea{
+    border: 2px solid gainsboro;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: block;
+    font-size: 1.6rem;
+    
+}
+
+
+
+    }
+
