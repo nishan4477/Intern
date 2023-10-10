@@ -73,7 +73,7 @@ const Navigator = () => {
           </div>
           </NavDropdown.Item>
         </NavDropdown>
-        <button className="btn ms-auto"><BsSearch size={20} color="white"/></button>
+        <button  className="btn ms-auto"><BsSearch size={20} color="white"/></button>
       </ul>
     
     </Container>
