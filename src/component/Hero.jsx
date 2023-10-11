@@ -93,7 +93,7 @@ const Hero = () => {
 <Container>
    <div className='hero__content'>
    { search && <div className='searchbox'>
-      <input type='text' name='searchbox' placeholder= "Search">
+      <input type='text' className='search__icon' name='searchbox' placeholder= "Search">
       
       </input>
       <button onClick={()=> setSearch(false)} className="cross"><RxCrossCircled size={30} color='black'/></button>

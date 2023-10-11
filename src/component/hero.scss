@@ -112,6 +112,14 @@ $iconscolor:  #1D6FA3;
         margin-top: 2rem;
        
         display: block;
+        .search__icon{
+            padding-left: 3.5rem;
+           
+            background-image: url('../assets/Images/search.png');
+            background-size: 2rem; 
+            background-repeat: no-repeat;
+            background-position: 1rem 1rem; 
+        }
   
         .cross{
             position: absolute;
