@@ -14,6 +14,15 @@ $iconscolor:  #1D6FA3;
 
 
       }
+
+      .line{
+        border: 1px solid white;
+        position: relative;
+        top: 13%;
+        @media (max-Width:768px){
+            display: none;
+        }
+      }
       nav{
         
         
@@ -44,7 +53,8 @@ $iconscolor:  #1D6FA3;
                 align-items: center;
                 gap: 4rem;
                 padding:2rem 0 ;
-                border-bottom: 1px solid white;
+                
+                
     
     
                 
@@ -96,6 +106,35 @@ $iconscolor:  #1D6FA3;
        width: 100%;
        height: 100vh;
        text-align: center;
+       .searchbox{
+        width: 100%;
+        position: relative;
+        margin-top: 2rem;
+       
+        display: block;
+  
+        .cross{
+            position: absolute;
+            top:2rem ;
+            left: 75%;
+            overflow: hidden;
+            background: white;
+            border-radius: 50%;
+          
+        }
+        input{
+           width: 50%;
+            height: 4rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 4rem;
+            border-radius: 1rem;
+            padding:1rem 2rem  ;
+            font-size: 1.6rem;
+            
+         
+        }
+       }
        h2{
            color: white;
            font-size: 6rem;

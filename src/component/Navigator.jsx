@@ -3,8 +3,6 @@ import { Col, Container, NavLink, Row } from "react-bootstrap";
 import logo from "../assets/Images/Companylogo.png";
 import { Link } from 'react-router-dom'
 
-
-
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { BiBookAlt } from "react-icons/bi";
 import {BsLightningCharge, BsSearch} from  "react-icons/bs"
@@ -73,7 +71,7 @@ const Navigator = () => {
           </div>
           </NavDropdown.Item>
         </NavDropdown>
-        <button  className="btn ms-auto"><BsSearch size={20} color="white"/></button>
+        <button onClick={()=> setSearch(true)} className="btn ms-auto"><BsSearch size={20} color="white"/></button>
       </ul>
     
     </Container>
