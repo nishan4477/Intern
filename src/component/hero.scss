@@ -19,7 +19,7 @@ $iconscolor:  #1D6FA3;
         border: 1px solid white;
         position: relative;
         top: 13%;
-        @media (max-Width:768px){
+        @media (max-Width:700px){
             display: none;
         }
       }
@@ -44,6 +44,10 @@ $iconscolor:  #1D6FA3;
           
            
             height: 8rem;
+            h3{
+                color: black;
+            }
+
 
             
     

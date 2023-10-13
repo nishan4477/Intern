@@ -8,7 +8,7 @@ import {CgFileDocument} from "react-icons/cg"
 const LatestResources = () => {
   return (
 <section className='latest'>
-    <Container>
+    <Container >
         <Heading title="Latest Resources" children='The latest resources includes Transparency Toolkit, Evidence, Best Practices' />
         <Row>
           <Col lg='4'>

@@ -33,109 +33,129 @@ a,li,p,h1,h2,h3,h4,h5{
     color: white;
 }
 
-
-.heading{
+// css for heading component started
+.heading {
     text-align: center;
-    padding: 0 30rem;
+    padding: 0 22rem;
     padding-bottom: 3.2rem;
     line-height: 3rem;
-    h2{
+
+    h2 {
         font-size: 3.2rem;
         color: black;
 
-        
     }
-    p{
+
+    p {
         font-size: 2rem;
         color: grey;
-        
+
 
     }
-    @media  (max-Width:999px) {
+
+    @media (max-Width:999px) {
         padding: 0 0;
-        
+
     }
 
 }
 
+// css for heading component ended
 
-.cards{
+
+
+
+// css for cards started
+.cards {
     max-width: 352px;
     max-height: 596px;
-    @media (max-Width: 768px){
-       margin-left: auto;
-       margin-right: auto;
+
+    @media (max-Width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
     }
-   
-    img{
+
+    img {
         max-width: 352px;
         max-height: 352px;
         overflow: hidden;
 
-
-
-
-
     }
-    h3{
-        margin-left: 3.2rem!important;
-        font-size: 1.8rem ;
+
+    h3 {
+        margin-left: 3.2rem !important;
+        font-size: 1.8rem;
         color: black;
         padding: 2rem 0;
 
     }
-    p{
+
+    p {
         color: grey;
         font-size: 1.4rem;
         margin-left: 3.2rem;
-        padding-bottom: 2rem;     
+        padding-bottom: 2rem;
     }
 
-    a{
+    a {
         margin-left: 3.2rem;
         font-size: 1.6rem;
+        color: #478AB5!important; 
     }
 }
 
-
-.cards2{
-max-width: 35.7rem;
-max-height: 47rem;
-padding: 2rem 2rem;
-background-color: #F9F9FF;
-border-radius: 2rem;
+// css for cards ended
 
 
+// css for cards2 started
 
+.cards2 {
+    max-width: 35.7rem;
+    max-height: 47rem;
+    padding: 2rem 2rem;
+    background-color: #F9F9FF;
+    border-radius: 2rem;
+    @media  (max-Width:999px){
+        margin-left: auto;
+        margin-right: auto;
 
-    img{
-      
+    }
+    
+
+    img {
+
         max-width: 31.5rem;
         max-height: 20.1rem;
         border-radius: 2rem;
         overflow: hidden;
     }
-    
 
-h3{
-    font-size: 2.4rem;
-    line-height: 3.6rem;
-    color: black;
-}
-p{
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    color: gray;
-}
-  
-a{
-    font-size:1.6rem ;
-    color: #478AB5;
-}
+
+    h3 {
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+        color: black;
+    }
+
+    p {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        color: gray;
+    }
+
+    a {
+        font-size: 1.6rem;
+        color: #478AB5!important; 
+    }
 
 }
 
-.downbtn{
+// css for cards2 ended
+
+
+// css for down button started
+
+.downbtn {
     background-color: transparent;
     padding: 1rem 1.6rem;
     border: 1px solid #478AB5;
@@ -144,46 +164,65 @@ a{
     margin-right: auto;
     display: block;
     margin-top: 2rem;
-
-  
+    h4{
+        color: black;
+        
+    }
 
 }
+// css for down button ended
 
 
-.cards3{
+
+// css for cards3 started
+
+.cards3 {
     max-width: 35.5rem;
     max-height: 37.7rem;
     border-radius: 2rem;
     background-color: white;
     padding: 2rem 2.5rem;
-    .icons__top{
+    @media  (max-Width:999px){
+      margin: 1rem auto;
+
+    }
+
+    .icons__top {
         display: flex;
         justify-content: start;
         align-items: center;
         gap: 1rem;
-        h4{
-            background-color:#F8F1FF;
+
+        h4 {
+            background-color: #F8F1FF;
             padding: 1rem;
             border-radius: 1.5rem;
         }
-        h5{
+
+        h5 {
             color: gray;
             font-size: 1.8rem;
         }
     }
-    h2{
+
+    h2 {
         line-height: 3.6rem;
         font-size: 2.4rem;
-            color: black;
+        color: black;
 
     }
-    p{
+
+    p {
         line-height: 2.4rem;
         font-size: 1.6rem;
         color: gray;
     }
-    a{
-        font-size:1.6rem ;
-    color: #478AB5;
+
+    a {
+        font-size: 1.6rem;
+        color: #478AB5;
     }
 }
+
+// css for cards3 ended
+

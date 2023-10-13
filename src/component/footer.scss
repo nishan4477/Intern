@@ -31,9 +31,11 @@
 
     }
     .footer__content{
-        position: absolute;
+        position: relative;
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr ;
+        
+        width: 100%;
        
           z-index: 2;
           @media (max-width:999px){
@@ -62,6 +64,7 @@
             justify-content: start;
             align-items: start;
             gap: 2rem;
+            margin-bottom: 2rem;
             p{
                 font-size: 1.6rem;
                 padding-right: 20rem;
@@ -110,11 +113,7 @@
     }
         
   
-    
 
-
-
-        
     }
     
 }

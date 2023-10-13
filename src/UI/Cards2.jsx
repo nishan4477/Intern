@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineArrowRight} from "react-icons/ai"
 const Cards2 = ({image, title, desc}) => {
   return (
-    <div className='cards2 shadow '>
+    <div className='cards2 shadow  '>
         
             <img src={image} alt="" />
   

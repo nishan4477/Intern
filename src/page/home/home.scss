@@ -1,7 +1,12 @@
+// css for campaingn page started
 .campaigns{
     padding: 9.6rem 0;
 }
 
+// css for campaigns page ended
+
+
+// css for who are we page started
 .who{
     padding: 9.6rem 0;
     @media (max-Width: 768px){
@@ -15,6 +20,7 @@
     h2{
         font-size: 3.2rem;
         line-height: 4rem;
+        color: black;
     }
     p{
         font-size: 1.8rem;
@@ -25,10 +31,13 @@
     a{
         margin-top: 2rem;
         font-size: 1.4rem;
+        color:#478AB5 ;
     }
     h3{
         font-size: 2.4rem;
         line-height: 4.2rem;
+        margin-bottom: 4rem;
+        color: black;
   
         
     }
@@ -37,6 +46,7 @@
         @media (max-Width: 768px){
             margin-left: auto;
             margin-right: auto;
+            
          }
         
         max-width: 328px;
@@ -64,6 +74,9 @@
 }
 
 
+// css for who are we page ended
+
+// css for slider started 
 .slider{
     padding: 9.6rem 0;
     display: flex;
@@ -78,7 +91,7 @@
     img{
         max-width: 151px;
         height: 40px;
-        margin-left: 9rem;
+        margin-left: 7rem;
         
     }
     
@@ -86,19 +99,37 @@
 
 
 }
+// css for slider ended
+
+
+// css for news stated
 
 .news{
     padding: 9.6rem 0;
 
+
+
+
     
 }
+
+// css for news ended
+
+
+// css for latest resources started
 
 
 .latest{
     padding: 9.6rem 0;
     background-color: #F9F9FF;
 
+
 }
+// css for latest resources ended
+
+
+
+// css for contact us section started 
 
 
 .contact{
@@ -119,6 +150,8 @@
 
     h4{
         font-size: 16px ;
+        color:#24272E;
+        line-height: 2.4rem;
     }
 
     
@@ -137,4 +170,10 @@ input, textarea{
 
 
     }
+
+
+    // css of contact us section ended 
+
+
+
 
