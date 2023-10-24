@@ -1,0 +1,167 @@
+// .nav bg-body-dark navbar navbar-expand-lg navbar-light{
+//     background-color: transparent!important;
+
+// }
+
+.navs{
+        
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        border-bottom: 1px solid #fff;
+        @media (max-Width:767px){
+            border: none;
+        }
+        padding:3.2rem 0;
+       
+             
+     
+        
+
+ 
+
+    
+      
+    .navigator{
+        z-index: 1;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 4rem;
+        @media (max-Width:767px){
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            gap: 1rem;
+            
+           
+        }
+      .btn{
+        margin-left: auto;
+        @media (max-Width:767px){
+            margin-left: 3rem;
+        }
+        
+      }
+   
+            .nav__links{
+                width: 100%;
+                .desktop__menu{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 4rem;
+                    margin: 0;
+                    
+
+                    @media (max-Width:767px){
+                       flex-direction: column;
+                       justify-content: start;
+                       display: none;
+                       
+                       background-color: rgba(0, 0, 0, 0.689);
+                      
+                       
+
+                    }
+
+             
+            
+                    
+                    
+        
+        
+                    
+        
+                    .dropdown{
+                        display: flex;
+                        color: white;
+                        transition: all 500ms ease;
+                        
+                        
+                        gap: 1rem;
+        
+                        .btn{
+                            background-color: transparent;
+        
+                        }
+                        .icons{
+                           fill: blue;
+                           font-size: 20px;
+        
+                        }
+                        .text{
+                            color: black;
+                            p{
+                                color: black;
+                            }
+                        }
+                        
+                    }
+        
+                }
+                .active{
+                    display: flex;
+                }
+               
+                @media (max-Width:767px){
+                display: flex;
+                flex-direction: column;
+
+            
+        }
+       }
+       
+      
+     
+           .toggle__button{
+            position: absolute;
+            top: 4rem;
+            right: 2rem;
+            display: none;
+            width: 3rem;
+            height: 2rem;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: transparent;
+            @media (max-Width:767px){
+                display: flex;
+
+            }
+         
+
+           }
+
+      
+       
+        // height: 8rem;
+        h3{
+            color: black;
+        }
+
+        ul{
+            li{
+                transition: all 500ms ease;
+                padding: 1rem 1rem;
+
+                &:hover{
+                    background-color: rgba(128, 128, 128, 0.34);
+                }
+            }
+        }
+   
+
+
+        
+
+       
+  }
+
+ 
+
+
+
+  }

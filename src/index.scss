@@ -43,6 +43,7 @@ a,li,p,h1,h2,h3,h4,h5{
     h2 {
         font-size: 3.2rem;
         color: black;
+        font-weight: 600;
 
     }
 
@@ -53,8 +54,9 @@ a,li,p,h1,h2,h3,h4,h5{
 
     }
 
-    @media (max-Width:999px) {
+    @media (max-Width:991px) {
         padding: 0 0;
+       
 
     }
 
@@ -70,9 +72,10 @@ a,li,p,h1,h2,h3,h4,h5{
     max-width: 352px;
     max-height: 596px;
 
-    @media (max-Width: 768px) {
+    @media (max-Width: 991px) {
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 2rem;
     }
 
     img {
@@ -87,6 +90,7 @@ a,li,p,h1,h2,h3,h4,h5{
         font-size: 1.8rem;
         color: black;
         padding: 2rem 0;
+        font-weight: 700;
 
     }
 
@@ -95,12 +99,14 @@ a,li,p,h1,h2,h3,h4,h5{
         font-size: 1.4rem;
         margin-left: 3.2rem;
         padding-bottom: 2rem;
+        font-weight: 400;
     }
 
     a {
         margin-left: 3.2rem;
         font-size: 1.6rem;
         color: #478AB5!important; 
+        font-weight: 700;
     }
 }
 
@@ -115,7 +121,7 @@ a,li,p,h1,h2,h3,h4,h5{
     padding: 2rem 2rem;
     background-color: #F9F9FF;
     border-radius: 2rem;
-    @media  (max-Width:999px){
+    @media  (max-Width:991px){
         margin-left: auto;
         margin-right: auto;
 
@@ -135,17 +141,20 @@ a,li,p,h1,h2,h3,h4,h5{
         font-size: 2.4rem;
         line-height: 3.6rem;
         color: black;
+        font-weight: 600;
     }
 
     p {
         font-size: 1.6rem;
         line-height: 2.4rem;
         color: gray;
+        font-weight: 400;
     }
 
     a {
         font-size: 1.6rem;
         color: #478AB5!important; 
+        font-weight: 700;
     }
 
 }
@@ -166,6 +175,8 @@ a,li,p,h1,h2,h3,h4,h5{
     margin-top: 2rem;
     h4{
         color: black;
+        font-size: 1.6rem;
+        font-weight: 700;
         
     }
 
@@ -182,10 +193,14 @@ a,li,p,h1,h2,h3,h4,h5{
     border-radius: 2rem;
     background-color: white;
     padding: 2rem 2.5rem;
-    @media  (max-Width:999px){
-      margin: 1rem auto;
-
-    }
+   
+    @media only screen and (max-width: 767px) {
+        margin: 1rem auto;
+      }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        margin: 1rem auto;
+      }
+      
 
     .icons__top {
         display: flex;
@@ -209,6 +224,7 @@ a,li,p,h1,h2,h3,h4,h5{
         line-height: 3.6rem;
         font-size: 2.4rem;
         color: black;
+        font-weight: 600;
 
     }
 
@@ -216,13 +232,14 @@ a,li,p,h1,h2,h3,h4,h5{
         line-height: 2.4rem;
         font-size: 1.6rem;
         color: gray;
+        font-weight: 400;
     }
 
     a {
         font-size: 1.6rem;
         color: #478AB5;
+        font-weight: 700;
     }
 }
 
 // css for cards3 ended
-

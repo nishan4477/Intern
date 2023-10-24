@@ -15,107 +15,31 @@ $iconscolor:  #1D6FA3;
 
       }
 
-      .line{
-        border: 1px solid white;
-        position: relative;
-        top: 13%;
-        @media (max-Width:700px){
-            display: none;
-        }
-      }
-      nav{
-        
-        
-        
-    
-
-    
-      
-        .navigator{
-            position: absolute;
-            z-index: 1;
-            font-size: 1.6rem;
-          
-               
-        @media (max-Width:700px){
-            display: none;
-            
-        }
-          
-           
-            height: 8rem;
-            h3{
-                color: black;
-            }
+    //   .line{
+    //     border: 1px solid white;
+    //     position: relative;
+    //     top: 11.2rem;
+    //     @media (max-Width:700px){
+    //         display: none;
+    //     }
+    //   }
 
 
-            
-    
-            .flex{
-                display: flex;
-                justify-content: start;
-                align-items: center;
-                gap: 4rem;
-                padding:2rem 0 ;
-                
-                
-    
-    
-                
-    
-                .dropdown{
-                    display: flex;
-                    color: white;
-                    transition: all 500ms ease;
-                    
-                    
-                    gap: 1rem;
-    
-                    .btn{
-                        background-color: transparent;
-    
-                    }
-                    .icons{
-                       fill: blue;
-                       font-size: 20px;
-    
-                    }
-                    .text{
-                        color: black;
-                        p{
-                            color: black;
-                        }
-                    }
-                    
-                }
-    
-            }
-      }
-
-     
-
-
-
-      }
-
-
-    //   hero__content started
-      .hero__content{
-       position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 4.8rem;
-       width: 100%;
-       height: 100vh;
-       text-align: center;
-       .searchbox{
+      .searchbox{
         width: 100%;
-        position: relative;
-        margin-top: 2rem;
-       
-        display: block;
+        position: absolute;
+       inset: 0;
+       height: 100%;
+       background: rgba(0, 0, 0, 0.40);
+       display: flex;
+   
+       justify-content: center;
+       z-index: 9;
+      .search__container{
+       position: relative;
+       display: flex;
+       margin-top: 10%;
+      }
         .search__icon{
             padding-left: 3.5rem;
            
@@ -147,6 +71,20 @@ $iconscolor:  #1D6FA3;
          
         }
        }
+
+
+    //   hero__content started
+      .hero__content{
+       position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4.8rem;
+       width: 100%;
+       height: 100vh;
+       text-align: center;
+
        h2{
            color: white;
            font-size: 6rem;

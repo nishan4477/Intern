@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './home.scss'
 import Hero from '../../component/Hero'
 
@@ -9,11 +9,19 @@ import News from '../../component/News'
 import LatestResources from '../../component/LatestResources'
 import ContactUs from '../../component/ContactUs'
 import Footer from '../../component/Footer'
+import NavBar from '../../component/NavBar'
 
 const Home = () => {
+
+  const [search, setSearch] =useState(false);
+
+  function handleSearch(){
+    setSearch(!search);
+  }
   return (
     <>
-    <Hero/>
+    <NavBar onClickSearch = {handleSearch} />
+    <Hero search={search}  onClickSearch = {handleSearch}/>
     <Campaigns/>
     <Who/>
     <LogoSlider/>

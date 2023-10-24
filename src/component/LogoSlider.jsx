@@ -8,6 +8,7 @@ import com2 from "../assets/Images/sliderlogo/company2.png"
 import com3 from "../assets/Images/sliderlogo/company3.png"
 import com4 from "../assets/Images/sliderlogo/company4.png"
 
+
 const LogoSlider = () => {
     const responsive = {
         superLargeDesktop: {
@@ -28,10 +29,12 @@ const LogoSlider = () => {
           items: 1
         }
       };
+
   return (
     <div className='slider'>
         <Container>
         <Carousel responsive={responsive}
+             
          autoPlay={true}
          autoPlaySpeed={4000}
          infinite={true}
