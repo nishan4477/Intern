@@ -11,17 +11,13 @@
         left: 0;
         z-index: 2;
         border-bottom: 1px solid #fff;
-        @media (max-Width:767px){
+        @media (max-Width:991px){
             border: none;
         }
         padding:3.2rem 0;
        
              
      
-        
-
- 
-
     
       
     .navigator{
@@ -31,7 +27,7 @@
         justify-content: start;
         align-items: center;
         gap: 4rem;
-        @media (max-Width:767px){
+        @media (max-Width:991px){
             flex-direction: column;
             justify-content: start;
             align-items: start;
@@ -41,7 +37,7 @@
         }
       .btn{
         margin-left: auto;
-        @media (max-Width:767px){
+        @media (max-Width:991px){
             margin-left: 3rem;
         }
         
@@ -57,12 +53,13 @@
                     margin: 0;
                     
 
-                    @media (max-Width:767px){
+                    @media (max-Width:991px){
                        flex-direction: column;
                        justify-content: start;
                        display: none;
                        
                        background-color: rgba(0, 0, 0, 0.689);
+                       padding: 2rem 0;
                       
                        
 
@@ -107,7 +104,7 @@
                     display: flex;
                 }
                
-                @media (max-Width:767px){
+                @media (max-Width:991px){
                 display: flex;
                 flex-direction: column;
 
@@ -127,7 +124,7 @@
             flex-direction: column;
             justify-content: space-between;
             background-color: transparent;
-            @media (max-Width:767px){
+            @media (max-Width:991px){
                 display: flex;
 
             }

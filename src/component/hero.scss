@@ -1,4 +1,7 @@
-$iconscolor:  #1D6FA3;
+@import "../index.scss";
+
+
+
 .hero{
     background-image: url('../assets/Images/hero.png');
     background-repeat: no-repeat;
@@ -15,14 +18,7 @@ $iconscolor:  #1D6FA3;
 
       }
 
-    //   .line{
-    //     border: 1px solid white;
-    //     position: relative;
-    //     top: 11.2rem;
-    //     @media (max-Width:700px){
-    //         display: none;
-    //     }
-    //   }
+  
 
 
       .searchbox{
@@ -84,13 +80,14 @@ $iconscolor:  #1D6FA3;
        width: 100%;
        height: 100vh;
        text-align: center;
+       padding-top: 6rem;
 
        h2{
            color: white;
-           font-size: 6rem;
+           font-size: clamp(3.5rem,5vw,6rem);
        }
        p{
-        font-size: 2rem;
+        font-size:clamp(1rem,5vw,2rem) ;
         color: white;
         padding-left: 30rem;
         padding-right: 30rem,;

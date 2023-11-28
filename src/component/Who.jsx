@@ -15,15 +15,15 @@ const Who = () => {
                 <Col lg="4">
                     <h2>Who we are</h2>
                     <p>We are a collaboration of Non Govt.  and professionals working to ensure that government spending is done fairly, openly, efficiently, and creates the best value for money and best outcomes for Europe. We are working at the national and EU levels to advance the principles of openness in spending of funds, procurement, and company ownership within the EU.</p>
-                    <a href=''> See more <AiOutlineArrowRight size={14} color='#478AB5' /> </a>
+                    <a  href=''> See more <AiOutlineArrowRight size={14} color='#478AB5' /> </a>
 
                 </Col>
 
                 <Col lg="8">
                 
                     <Row>
-                        <Col className='left' lg="6">
-                           <div className='image'>
+                        <Col className='left'  lg="6">
+                           <div className='image '>
                            <img className='w-100' src={who1} alt="" />
                            </div> 
                             <h3>Adriana Homolova</h3>

@@ -16,22 +16,22 @@ const News = () => {
         <Container>
         <Heading title="News" children="We aim to stop public funds siphoning off and we have a plan that will help. We are working at the national and EU levels to advance." />
          <Row className='gy-4'>
-          <Col lg="4">
+          <Col lg="4" md="6" sm="12">
             <Cards2 image={news1} title="Statement from the Catalogue Coalition..." desc='In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds...' />
           </Col>
-          <Col lg="4">
+          <Col lg="4" md="6" sm="12" >
             <Cards2 image={news2} title="Statement from the Catalogue Coalition...  " desc="In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..." / >
           </Col>
-          <Col lg="4">
+          <Col lg="4" md="6" sm="12">
           <Cards2 image={news3} title="Statement from the Catalogue Coalition...  " desc="In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..." / >
           </Col>
-          <Col lg="4">
+          <Col lg="4" md="6" sm="12">
           <Cards2 image={news4} title="Statement from the Catalogue Coalition... " desc="In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..." / >
           </Col>
-          <Col lg="4">
+          <Col lg="4" md="6" sm="12">
           <Cards2 image={news5} title="Statement from the Catalogue Coalition..." desc="In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..." / >
           </Col>
-          <Col lg="4">
+          <Col lg="4" md="6" sm="12" >
           <Cards2 image={news6} title="Statement from the Catalogue Coalition..." desc="In view of Russia’s military action against the Ukrainian people, being concerned about ensuring that European funds..." / >
           </Col>
 

@@ -11,9 +11,9 @@ const Hero = ({search, onClickSearch}) => {
 
   return (
     <section className="hero">
-      {/* <div className="line"></div> */}
 
-      {/* hero content started */}
+
+
 
       {search && (
         <div className="searchbox">
